@@ -1,0 +1,25 @@
+# ignore node dependencies
+node_modules
+
+# MacOs files
+.DS_Store
+
+# env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm files
+npm-debug.log*
+package-lock.json
+
+# yarn files
+yarn.lock
+yarn-*.log*
+
+# ignore folder
+build
+logs
+temp
+www
